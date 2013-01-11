@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6699FF"
+    android:fadingEdge="horizontal" >
+
+    <TextView
+        android:id="@+id/textInventory"
+        android:text="@string/textInventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dip"
+        android:textSize="22sp" >
+    </TextView>
+    <Button
+            android:id="@+id/frozen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frozen"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_below ="@+id/textInventory"
+            android:layout_centerHorizontal="true">
+     </Button> 
+     <Button
+            android:id="@+id/produce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/produce"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_below ="@+id/frozen"
+            android:layout_centerHorizontal="true">
+     </Button> 
+     <Button
+            android:id="@+id/dry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dry"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_below ="@+id/produce"
+            android:layout_centerHorizontal="true">
+     </Button> 
+     <Button
+            android:id="@+id/nonfood"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nonfood"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:layout_below ="@+id/dry"
+            android:layout_centerHorizontal="true">
+     </Button>  
+   
+</RelativeLayout>

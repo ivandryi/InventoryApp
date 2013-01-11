@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6699FF"
+    android:fadingEdge="horizontal" >
+
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:text="@string/report"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/showReport"
+    	android:text="@string/showReport"
+    	android:layout_width="wrap_content"
+    	android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below ="@+id/report"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp" >
+	</TextView>
+	
+    <TextView
+        android:id="@+id/showResult"
+    	android:text="@string/showResult"
+    	android:layout_width="fill_parent"
+    	android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below ="@+id/showReport"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp">
+	</TextView>
+    
+</RelativeLayout>

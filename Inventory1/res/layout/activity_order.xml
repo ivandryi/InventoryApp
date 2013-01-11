@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6699FF"
+    android:fadingEdge="horizontal" >
+
+    
+    <TextView
+        android:id="@+id/orderItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:text="@string/orderItem"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" >
+    </TextView>
+    <TextView
+        android:id="@+id/showOrder"
+    	android:text="@string/showOrder"
+    	android:layout_width="wrap_content"
+    	android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below ="@+id/orderItem"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp" >
+    </TextView>
+    <Button
+            android:id="@+id/submitOrder"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="@string/submitOrder"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below ="@+id/showOrder"
+            android:layout_centerHorizontal="true">
+     </Button> 
+    <TextView
+        android:id="@+id/viewOrder"
+    	android:text="@string/viewOrder"
+    	android:layout_width="wrap_content"
+    	android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below ="@+id/submitOrder"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp" >
+    </TextView>
+    
+</RelativeLayout>

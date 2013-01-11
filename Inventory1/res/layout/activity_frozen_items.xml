@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6699FF"
+    android:fadingEdge="horizontal" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:text="@string/header"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" >
+    </TextView>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" >
+     </Spinner>
+     <TextView
+        android:id="@+id/errorF"
+    	android:text="@string/errorF"
+    	android:layout_width="wrap_content"
+    	android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below ="@+id/spinner"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"
+        android:textColor="#FF0000" >
+     </TextView>
+    <EditText
+            android:id="@+id/numberUsed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numberUsed"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_below ="@+id/errorF"
+            android:layout_centerHorizontal="true">
+     </EditText>
+     <Button
+            android:id="@+id/submitF"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below ="@+id/numberUsed"
+            android:layout_centerHorizontal="true">
+     </Button> 
+    
+</RelativeLayout>

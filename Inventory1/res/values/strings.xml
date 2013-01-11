@@ -1,0 +1,225 @@
+<resources>
+
+    <string name="app_name">Inventory</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Inventory</string>
+    <string name="text">Inventory</string>
+    <string name="error"></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="check">Remember me</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="textInventory">Choose a Group</string>
+    <string name="frozen">Frozen</string>
+    <string name="produce">Produce</string>
+    <string name="dry">Dry Goods</string>
+    <string name="nonfood">Non-Food Items</string>
+    <string name="title_activity_frozen_items"></string>
+    <string name="header">Frozen Items</string>
+    <string name="spinner"></string>
+    <string name="numberUsed">Number of items used</string>
+    <string name="submit">Submit</string>
+    <string name="errorF"></string>
+    <string name="report">Report</string>
+    <string name="lookUp">Look Up</string>
+    <string name="order">Order</string>
+
+    <string-array name="frozen_items">
+        <item>bacon</item>
+        <item>biscuits</item>
+        <item>cheese stix</item>
+        <item>chicken fingers</item>
+        <item>chuckwagon</item>
+        <item>corn nuggets</item>
+        <item>corn dogs</item>
+        <item>french fries</item>
+        <item>fish</item>
+        <item>fried mushrooms</item>
+        <item>grilled chicken</item>
+        <item>hamburgers</item>
+        <item>jalapeno poppers</item>
+        <item>onion rings</item>
+        <item>philly</item>
+        <item>ribeye</item>
+        <item>tater tots</item>
+        <item>veggie burger</item>
+    </string-array>
+    <string-array name="produce_items">
+        <item>american cheese</item>
+        <item>bell peppers</item>
+        <item>bologna</item>
+        <item>chili</item>
+        <item>country ham</item>
+        <item>eggs</item>
+        <item>flour tortillia</item>
+        <item>ham</item>
+        <item>hoagies</item>
+        <item>hot dogs</item>
+        <item>lettuce</item>
+        <item>mayonnaise gal</item>
+        <item>mustard gal</item>
+        <item>mushrooms</item>
+        <item>oil</item>
+        <item>onions</item>
+        <item>pickles</item>
+        <item>provolone</item>
+        <item>roastbeef</item>
+        <item>rye bread</item>
+        <item>sausage dogs</item>
+        <item>slaw</item>
+        <item>squeeze butter</item>
+        <item>swiss cheese</item>
+        <item>tomatoes</item>
+        <item>turkey</item>
+        <item>wheat bread</item>
+        <item>white bread</item>
+    </string-array>
+    <string-array name="dry_items">
+        <item>bbq packets</item>
+        <item>chips</item>
+        <item>coffee</item>
+        <item>creamers</item>
+        <item>hot sauce</item>
+        <item>honey mustard packets</item>
+        <item>ketchup packets</item>
+        <item>ketchup bottles</item>
+        <item>lowrys</item>
+        <item>mayonnaise packets</item>
+        <item>mustard packets</item>
+        <item>pancake mix</item>
+        <item>pepper packets</item>
+        <item>ranch packets</item>
+        <item>salt packets</item>
+        <item>sausage gravy</item>
+        <item>sugar packets</item>
+        <item>syrup packets</item>
+        <item>sweet low</item>
+        <item>tony catch</item>
+        <item>tea bags</item>
+    </string-array>
+    <string-array name="nonfood_items">
+        <item>#4 bags</item>
+        <item>#6 bags</item>
+        <item>#12 deli</item>
+        <item>#15 deli</item>
+        <item>boats</item>
+        <item>forks</item>
+        <item>grill screens</item>
+        <item>grill brick</item>
+        <item>lg cups</item>
+        <item>lg boxes</item>
+        <item>lg trash bags</item>
+        <item>lids</item>
+        <item>napkins</item>
+        <item>paper towels</item>
+        <item>straws</item>
+        <item>sm cups</item>
+        <item>sm boxes</item>
+        <item>sm trash bags</item>
+    </string-array>
+
+    <string name="title_activity_report">Report</string>
+    <string name="showReport">Items To Order (In Cases):</string>
+    <string name="showResult"></string>
+    <string name="title_activity_look_up">Look Up An Item</string>
+    <string name="headerItem">Look Up An Item</string>
+    <string name="spinnerItem"></string>
+    <string name="submitItem">Submit</string>
+    <string name="showItem"></string>
+
+    <string-array name="items">
+        <item>bacon</item>
+        <item>biscuits</item>
+        <item>cheese stix</item>
+        <item>chicken fingers</item>
+        <item>chuckwagon</item>
+        <item>corn nuggets</item>
+        <item>corn dogs</item>
+        <item>french fries</item>
+        <item>fish</item>
+        <item>fried mushrooms</item>
+        <item>grilled chicken</item>
+        <item>hamburgers</item>
+        <item>jalapeno poppers</item>
+        <item>onion rings</item>
+        <item>philly</item>
+        <item>ribeye</item>
+        <item>tater tots</item>
+        <item>veggie burger</item>
+        <item>american cheese</item>
+        <item>bell peppers</item>
+        <item>bologna</item>
+        <item>chili</item>
+        <item>country ham</item>
+        <item>eggs</item>
+        <item>flour tortillia</item>
+        <item>ham</item>
+        <item>hoagies</item>
+        <item>hot dogs</item>
+        <item>lettuce</item>
+        <item>mayonnaise gal</item>
+        <item>mustard gal</item>
+        <item>mushrooms</item>
+        <item>oil</item>
+        <item>onions</item>
+        <item>pickles</item>
+        <item>provolone</item>
+        <item>roastbeef</item>
+        <item>rye bread</item>
+        <item>sausage dogs</item>
+        <item>slaw</item>
+        <item>squeeze butter</item>
+        <item>swiss cheese</item>
+        <item>tomatoes</item>
+        <item>turkey</item>
+        <item>wheat bread</item>
+        <item>white bread</item>
+        <item>bbq packets</item>
+        <item>chips</item>
+        <item>coffee</item>
+        <item>creamers</item>
+        <item>hot sauce</item>
+        <item>honey mustard packets</item>
+        <item>ketchup packets</item>
+        <item>ketchup bottles</item>
+        <item>lowrys</item>
+        <item>mayonnaise packets</item>
+        <item>mustard packets</item>
+        <item>pancake mix</item>
+        <item>pepper packets</item>
+        <item>ranch packets</item>
+        <item>salt packets</item>
+        <item>sausage gravy</item>
+        <item>sugar packets</item>
+        <item>syrup packets</item>
+        <item>sweet low</item>
+        <item>tony catch</item>
+        <item>tea bags</item>
+        <item>#4 bags</item>
+        <item>#6 bags</item>
+        <item>#12 deli</item>
+        <item>#15 deli</item>
+        <item>boats</item>
+        <item>forks</item>
+        <item>grill screens</item>
+        <item>grill brick</item>
+        <item>lg cups</item>
+        <item>lg boxes</item>
+        <item>lg trash bags</item>
+        <item>lids</item>
+        <item>napkins</item>
+        <item>paper towels</item>
+        <item>straws</item>
+        <item>sm cups</item>
+        <item>sm boxes</item>
+        <item>sm trash bags</item>
+    </string-array>
+
+    <string name="title_activity_order">Order</string>
+    <string name="orderItem">Order:</string>
+    <string name="showOrder"></string>
+ 	<string name="submitOrder">Submit Order</string>
+ 	<string name="viewOrder"></string>
+</resources>
